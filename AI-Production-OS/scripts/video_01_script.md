@@ -1,22 +1,40 @@
-# Video 01 Script
+# VIDEO #1
 
-## Working Title
+Title:
+The Biggest Opportunity Nobody Sees
 
-The Biggest Opportunity In AI Is Not Automation
+Length:
+60-75 seconds
 
-## Script
+Platform:
+TikTok
+Instagram
+YouTube Shorts
 
-Everyone thinks the biggest opportunity in AI is replacing work.
+Style:
+Netflix Business Documentary
+Alex Hormozi
+Apple Commercial
+Google Corporate
 
-But the real opportunity is redesigning how work moves.
+Goal:
+Make viewers realize AI Agents create leverage rather than replace people.
 
-Inside most companies, the problem is not that people are slow. It is that decisions, approvals, research, and handoffs are trapped in disconnected tools.
+Audience:
+Entrepreneurs
+Founders
+Developers
+Business Owners
 
-AI changes that because it can sit between the tools, read the context, and move the next step forward.
+Hook
 
-The winners will not be the companies with the most AI features. They will be the companies that rebuild their operating system around faster decisions.
+If you think AI is just going to replace jobs...
+You're missing the bigger picture...
 
-That is the shift: from using AI as a shortcut, to using AI as infrastructure.
+Narration
 
-And that is why the next wave of software will not just help teams work. It will coordinate the work itself.
+[visas narration]
 
+CTA
+
+Follow for the next AI opportunity.

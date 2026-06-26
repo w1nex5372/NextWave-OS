@@ -34,6 +34,8 @@ Hard rules:
 - Use default assumptions when details are missing.
 - Enforce One Block = One Master Image.
 - Every block must have exactly one MASTER_IMAGE_PROMPT copy block.
+- Every block must include an emotional progression.
+- Every shot must include DIRECTOR_INTENT.
 - Every shot must use the provided Block [X] Master Image as the locked reference.
 - Every shot must include these copy blocks:
   - MASTER_IMAGE_PROMPT

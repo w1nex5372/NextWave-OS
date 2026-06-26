@@ -3,6 +3,7 @@
 ## Block [Number]
 
 - Purpose:
+- Emotional progression:
 - Script lines:
 - Location:
 - Emotional tone:
@@ -11,6 +12,7 @@
 ## Master Image Prompt
 
 ```text
+MASTER_IMAGE_PROMPT
 Create a realistic cinematic vertical 9:16 documentary frame for a premium business documentary.
 Scene:
 Subjects:
@@ -27,4 +29,3 @@ Avoid: cyberpunk, random robots, hologram overload, fake AI brain, unreadable fa
 ## Shots
 
 Use `shot_template.md` for each shot.
-

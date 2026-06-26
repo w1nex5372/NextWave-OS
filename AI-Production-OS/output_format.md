@@ -29,6 +29,7 @@ For each block:
 
 - Block number:
 - Block purpose:
+- Emotional progression:
 - Script lines:
 - Location:
 - Visual continuity summary:
@@ -47,8 +48,9 @@ Each shot inside the block must include:
 - Shot ID:
 - Timing:
 - Voiceover/script line:
+- DIRECTOR_INTENT:
 - Reference image:
-- Camera:
+- Camera direction:
 - Caption/text-on-screen:
 - Music:
 - SFX:

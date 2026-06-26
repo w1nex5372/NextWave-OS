@@ -25,6 +25,7 @@ Repeat for every block.
 
 ### Block [Number] - [Purpose]
 
+- Emotional progression:
 - Script lines:
 - Location:
 - Visual continuity summary:
@@ -42,8 +43,9 @@ MASTER_IMAGE_PROMPT
 
 - Timing:
 - Voiceover/script line:
+- DIRECTOR_INTENT:
 - Reference image: Block [Number] master image.
-- Camera:
+- Camera direction:
 - Caption/text-on-screen:
 - Music:
 - SFX:

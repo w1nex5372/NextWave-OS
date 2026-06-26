@@ -8,6 +8,7 @@
 - Audience:
 - Core promise:
 - Viewer takeaway:
+- Emotional arc:
 - CTA:
 
 ## Script
@@ -21,4 +22,3 @@ Paste finished script here.
 - Required examples:
 - Required CTA:
 - Optional references:
-

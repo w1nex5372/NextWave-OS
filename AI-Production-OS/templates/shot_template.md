@@ -4,10 +4,12 @@
 
 - Timing:
 - Voiceover/script line:
+- DIRECTOR_INTENT:
 - Reference image:
+- Camera direction:
 
 ```text
-Use Block [number] master image as the locked visual reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
+Use the provided Block [number] Master Image as the locked reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
 ```
 
 ## Copy Blocks

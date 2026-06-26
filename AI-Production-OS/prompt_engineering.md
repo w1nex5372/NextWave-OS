@@ -40,7 +40,12 @@ Avoid: morphing, distorted hands, extra fingers, warped faces, changing furnitur
 
 ## Required Shot Copy Blocks
 
-Every shot must include these three copy blocks:
+Every shot must include `DIRECTOR_INTENT` before camera direction and these three copy blocks:
+
+```text
+DIRECTOR_INTENT
+[Explain why this shot exists emotionally and how it moves the human story forward.]
+```
 
 ```text
 MASTER_IMAGE_PROMPT

@@ -21,9 +21,16 @@ Use this checklist before a production package is considered ready.
 - [ ] Avatar intro instructions are complete.
 - [ ] Avatar outro instructions are complete.
 - [ ] Every block has exactly one master image prompt.
+- [ ] Every block contains an emotional progression.
 - [ ] Every shot references the correct block master image.
+- [ ] Every shot has `DIRECTOR_INTENT`.
 - [ ] Every shot includes `MASTER_IMAGE_PROMPT`, `REFERENCE_VIDEO_PROMPT`, and `CAPCUT_EDITING_NOTES` copy blocks.
 - [ ] Every `REFERENCE_VIDEO_PROMPT` starts with "Use the provided Block [X] Master Image as the locked reference."
+- [ ] Technology supports humans.
+- [ ] Dashboards never dominate the story.
+- [ ] Camera movement has narrative motivation.
+- [ ] Visual rhythm alternates naturally.
+- [ ] The production package feels like a Netflix documentary rather than an AI demo.
 - [ ] No block changes location without starting a new block.
 - [ ] Camera direction is specific for every shot.
 - [ ] Shot timing is included.

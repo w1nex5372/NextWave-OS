@@ -30,13 +30,14 @@ If information is missing, use these defaults:
 4. Assign exactly one location and one master image to each block.
 5. Write exactly one block-level `MASTER_IMAGE_PROMPT`.
 6. Create shots inside each block using the same block master image.
-7. For every shot, include:
+7. For every shot, include `DIRECTOR_INTENT`.
+8. For every shot, include:
    - `MASTER_IMAGE_PROMPT`
    - `REFERENCE_VIDEO_PROMPT`
    - `CAPCUT_EDITING_NOTES`
-8. Add avatar intro and outro instructions.
-9. Add continuity, editing, QA, and export sections.
-10. Audit the package and fix failures before saving.
+9. Add avatar intro and outro instructions.
+10. Add continuity, editing, QA, and export sections.
+11. Audit the package and fix failures before saving.
 
 ## Hard Fail Conditions
 
@@ -46,8 +47,10 @@ The package fails if:
 - A block has zero master images.
 - A block has more than one master image.
 - A shot does not reference its block master image.
+- A shot does not include `DIRECTOR_INTENT`.
 - A reference video prompt does not start with the required sentence.
 - A shot changes location inside a block.
+- A shot exists only to show technology instead of advancing the human story.
 - A prompt contains cyberpunk, random robots, fake AI brain, excessive holograms, unreadable fake UI, glitch effects, or cheap social effects.
 - A shot lacks CapCut editing notes.
 - The package cannot be copied directly into production tools.
@@ -57,4 +60,3 @@ The package fails if:
 Use direct labels. Use fenced copy blocks. Keep instructions short, specific, and operational.
 
 Do not include theory, alternatives, or brainstorming.
-
