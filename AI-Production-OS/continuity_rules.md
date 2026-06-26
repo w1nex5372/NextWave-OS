@@ -9,7 +9,25 @@ One Block = One Master Image.
 Every shot in the same block must say:
 
 ```text
-Reference image: Use Block [number] master image as the locked visual reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
+REFERENCE_VIDEO_PROMPT
+Use the provided Block [X] Master Image as the locked reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
+```
+
+Every shot must also include:
+
+```text
+MASTER_IMAGE_PROMPT
+Use Block [X] MASTER_IMAGE_PROMPT above. Do not create a new master image for this shot.
+```
+
+```text
+CAPCUT_EDITING_NOTES
+Timing:
+Caption:
+Music:
+SFX:
+Transition:
+Editor note:
 ```
 
 ## Block Continuity
@@ -72,4 +90,3 @@ For the first 10 videos:
   - Customer operations floor.
 - Keep caption style consistent.
 - Keep music identity consistent.
-

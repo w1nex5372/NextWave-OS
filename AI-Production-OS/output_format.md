@@ -1,6 +1,8 @@
 # Output Format
 
-Every production package must follow this structure.
+Every production package must follow this structure exactly.
+
+Use fenced copy blocks. Labels must match exactly.
 
 ## 1. Production Summary
 
@@ -33,19 +35,53 @@ For each block:
 - Master image prompt:
 - Shots:
 
+Each block must include exactly one block-level copy block:
+
+```text
+MASTER_IMAGE_PROMPT
+[copy-ready image generation prompt]
+```
+
 Each shot inside the block must include:
 
 - Shot ID:
 - Timing:
 - Voiceover/script line:
 - Reference image:
-- Image-to-video prompt:
 - Camera:
 - Caption/text-on-screen:
 - Music:
 - SFX:
 - Transition:
 - Editor note:
+
+Each shot must include these exact copy blocks:
+
+```text
+MASTER_IMAGE_PROMPT
+Use Block [X] MASTER_IMAGE_PROMPT above. Do not create a new master image for this shot.
+```
+
+```text
+REFERENCE_VIDEO_PROMPT
+Use the provided Block [X] Master Image as the locked reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
+Action: [single action].
+Camera: [one camera move only].
+Duration: [seconds].
+Motion: subtle realistic documentary motion.
+Continuity: no scene change, no new environment, no new people, no wardrobe change, no screen redesign.
+Avoid: morphing, distorted hands, extra fingers, warped faces, changing furniture, changing screen layout, unreadable text, cyberpunk, robots, holograms, glitch effects.
+```
+
+```text
+CAPCUT_EDITING_NOTES
+Timing:
+Caption:
+Music:
+SFX:
+Transition:
+Editor note:
+```
 
 ## 4. Avatar Outro
 

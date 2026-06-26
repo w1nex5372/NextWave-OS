@@ -18,16 +18,54 @@ Continuity lock: this image is the master reference for Block [number]. It must 
 Avoid: cyberpunk, random robots, hologram overload, fake AI brain, unreadable fake text, glitch effects, sci-fi neon, distorted hands, distorted faces, extra fingers, warped screens, logos unless supplied.
 ```
 
-## Image-To-Video Prompt Formula
+## Reference Video Prompt Formula
+
+Every reference video prompt must be copy-ready for Hailuo, Kling, Runway, Pika, and Minimax.
+
+Every reference video prompt must start with this exact sentence:
 
 ```text
-Reference image: Use Block [number] master image as the locked visual reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
+Use the provided Block [X] Master Image as the locked reference.
+```
+
+```text
+Use the provided Block [X] Master Image as the locked reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
 Action: [single action or visual change].
 Camera: [one camera move only].
 Duration: [seconds].
 Motion: subtle realistic documentary motion.
 Continuity: no scene change, no new environment, no new people, no wardrobe change, no screen redesign.
 Avoid: morphing, distorted hands, extra fingers, warped faces, changing furniture, changing screen layout, unreadable text, cyberpunk, robots, holograms, glitch effects.
+```
+
+## Required Shot Copy Blocks
+
+Every shot must include these three copy blocks:
+
+```text
+MASTER_IMAGE_PROMPT
+Use Block [X] MASTER_IMAGE_PROMPT above. Do not create a new master image for this shot.
+```
+
+```text
+REFERENCE_VIDEO_PROMPT
+Use the provided Block [X] Master Image as the locked reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
+Action: [single action].
+Camera: [one camera move only].
+Duration: [seconds].
+Motion: subtle realistic documentary motion.
+Continuity: no scene change, no new environment, no new people, no wardrobe change, no screen redesign.
+Avoid: morphing, distorted hands, extra fingers, warped faces, changing furniture, changing screen layout, unreadable text, cyberpunk, robots, holograms, glitch effects.
+```
+
+```text
+CAPCUT_EDITING_NOTES
+Timing:
+Caption:
+Music:
+SFX:
+Transition:
+Editor note:
 ```
 
 ## Avatar Prompt Formula
@@ -61,4 +99,3 @@ Every prompt must specify:
 - Lighting.
 - Continuity lock.
 - Avoid list.
-
