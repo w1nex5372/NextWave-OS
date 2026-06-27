@@ -2,6 +2,10 @@
 
 Editing must feel premium, fast, and clear.
 
+Use `motion_language.md`, `visual_rhythm.md`, `transition_language.md`, `music_direction.md`, `sound_design.md`, and `editor_assistant.md` for the complete edit plan.
+
+Script timing, pacing, block order, shot order, avatar placement, and narration placement are locked. Editing may refine execution inside those boundaries but may not restructure the script.
+
 ## Timeline Defaults
 
 - Format: 9:16.
@@ -44,6 +48,8 @@ Use text-on-screen for:
 Do not write full paragraphs on screen.
 
 ## Transitions
+
+At every documentary block boundary, show the current chapter's environment state before emphasizing newly introduced props or maturity. The cut may preserve architecture, founder position, or a carried object to make evolution legible. Never use a transition to imply an unexplained object teleport or time jump.
 
 Use:
 
@@ -94,4 +100,3 @@ Avoid noisy social-media SFX.
 - Audio peaks below -1 dB.
 - Dialogue clear above music.
 - First frame is visually clear and intentional.
-

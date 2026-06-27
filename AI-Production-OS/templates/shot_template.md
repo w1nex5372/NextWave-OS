@@ -1,16 +1,32 @@
 # Shot Template
 
+## SCRIPT IS LAW
+
+This template expands one existing script shot. Never remove, merge, split, replace, add, or reorder the source shot.
+
 ## Shot [Block].[Shot]
 
+- Script block ID:
+- Script shot ID:
+- Script shot order:
 - Timing:
-- Voiceover/script line:
+- Voiceover/script line: [exact script text]
+- SHOT_TYPE:
 - DIRECTOR_INTENT:
-- Reference image:
+- LENS:
+- CAMERA_MOVEMENT:
+- COMPOSITION:
+- LIGHTING:
+- COLOR_STATE:
+- B-ROLL_STRATEGY:
+- Reference image: Block [number] unique master image only.
 - Camera direction:
-
-```text
-Use the provided Block [number] Master Image as the locked reference. Preserve the same location, lighting, color palette, people, wardrobe, props, screen style, and time of day.
-```
+- Caption/text-on-screen:
+- Music:
+- SFX:
+- Transition:
+- Editor note:
+- EDITOR_NOTES:
 
 ## Copy Blocks
 

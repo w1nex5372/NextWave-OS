@@ -2,6 +2,8 @@
 
 Use this style for every production package unless the producer gives a different brand direction.
 
+Use `cinematic_language.md` for style selection, `color_script.md` for emotional color progression, and `broll_library.md` for human-first supporting footage.
+
 ## Visual Identity
 
 - Premium business documentary.
@@ -42,9 +44,16 @@ Do not use:
 
 ## Environment Rules
 
-- Each block gets one environment through its master image.
+- Each script block maps to one production block and gets one unique environment state through its own master image.
 - Same block means same room, lighting, people, props, time of day, and visual tone.
-- New block may change environment only if the story beat changes.
+- Never reuse one master image across multiple blocks.
+- The current block's `SCENE_SOURCE` controls environment and characters.
+- Preserve recurring identity and architecture only after the script establishes them.
+- Never replace explicit workers, employees, customers, city, factory, warehouse, restaurant, or corporate context with a future founder setting.
+- Add props, organization, and maturity only when introduced by the current block.
+- Never place future-story elements in an earlier master image.
+- Carry existing objects forward or motivate their removal.
+- Lighting and current-character posture should evolve gradually with the emotional arc.
 - Screens may show abstract dashboards, charts, or product UI, but no readable fake text unless exact text is supplied.
 
 ## People Rules
@@ -53,6 +62,9 @@ Do not use:
 - Clothing: modern business casual, founder casual, product team attire, analyst attire, executive attire.
 - Avoid exaggerated emotions.
 - Use restrained documentary expressions: focus, tension, curiosity, confidence, concern.
+- The narrator is not a default visual subject.
+- Use presenter footage only when the locked script explicitly defines a presenter scene.
+- In documentary blocks, show the people affected by the narrated situation rather than the person narrating it.
 
 ## Screen Content Rules
 
@@ -70,4 +82,3 @@ Avoid:
 - Fake brand names.
 - Long readable UI copy.
 - Random code walls.
-

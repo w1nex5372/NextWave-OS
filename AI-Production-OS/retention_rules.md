@@ -2,9 +2,15 @@
 
 Use these rules to keep short-form documentary videos clear and watchable.
 
+Use `motion_language.md` and `visual_rhythm.md` to translate retention goals into shot duration, breathing moments, montage density, and visual variation.
+
+## Script Authority
+
+The script defines the hook, structure, blocks, shots, timing, pacing, outro, and CTA. These retention rules may strengthen visual execution only. Never rewrite a hook or CTA, change timing, add or remove a beat, or alter block or shot count.
+
 ## Structure
 
-For 45-90 second videos:
+When the locked script already uses these story functions, support them visually:
 
 1. Hook: make the viewer understand the stakes in 1-2 sentences.
 2. Problem: show what most people misunderstand.
@@ -41,7 +47,7 @@ Captions should emphasize:
 
 ## CTA Rules
 
-Use CTAs only when they fit the channel.
+Preserve the script's CTA exactly. The examples below guide visual treatment only and may never replace script text.
 
 Good CTA:
 
@@ -54,4 +60,3 @@ Avoid:
 ```text
 Like and subscribe for more amazing content.
 ```
-

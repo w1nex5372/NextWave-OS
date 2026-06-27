@@ -2,6 +2,8 @@
 
 Use realistic documentary camera language. Make every shot feel filmed, not generated.
 
+Use `shot_language.md`, `lens_language.md`, `camera_language.md`, `lighting_language.md`, and `composition_language.md` to make the required per-shot selections.
+
 ## Default Camera Style
 
 - Aspect ratio: 9:16 vertical.
@@ -23,7 +25,11 @@ Use realistic documentary camera language. Make every shot feel filmed, not gene
 - Lateral slide: creates premium motion.
 - Rack focus: shifts attention between person and object.
 
+The first visual of each documentary block must orient the viewer to that block's current environment state. Preserve founder identity and carried continuity while revealing only the progress introduced by the current script block.
+
 ## Pacing Defaults
+
+Script timing and pacing always override these reference ranges. Use the ranges only to interpret a script that supplies total runtime without per-shot timestamps, and never change shot count, order, or relative beat pacing.
 
 - Hook shots: 1.2-2.0 seconds.
 - Explanation shots: 2.0-3.5 seconds.
@@ -54,4 +60,3 @@ For Hailuo, Kling, Runway, Pika, and Minimax:
 - Preserve identity, room, wardrobe, props, and lighting.
 - Avoid morphing, new objects, extra fingers, unreadable text, and hallucinated screens.
 - Use "no scene change" and "no new environment" in every same-block shot prompt.
-
